@@ -15,7 +15,7 @@ def func(user):
     #account_id = input("Enter username: ")
 
     # Navigate to the op.gg page for the specific player
-    driver.get(f"https://na.op.gg/summoner/userName={user}")
+    driver.get(f"https://www.op.gg/summoners/na/{user}?queue_type=SOLORANKED")
 
 
     # Click the "Show More" button 5 times
